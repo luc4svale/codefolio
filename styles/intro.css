@@ -1,0 +1,74 @@
+#intro {
+  background: url(../assets/images/bg-intro.png) no-repeat center center;
+  background-size: cover;
+  padding-block: 120px 57px;
+  padding-inline: 163px;
+  display: flex;
+  flex-direction: column;
+  gap: 94px;
+  align-items: center;
+
+  #professional-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+
+    #presentation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 56px;
+
+      img {
+        width: 112px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+      }
+
+      #info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        samp{
+          font: var(--subtitle);
+          span{
+            color: var(--red)
+          }
+        }
+
+        h1 {
+          font: var(--title-lg);
+          color: var(--gray-600);
+          margin-block: 8px 20px;
+        }
+
+        p {
+          font: var(--text-sm);
+          color: var(--gray-400);
+          text-align: center;
+        }
+      }
+    }
+
+    #hard-skills-list {
+      list-style: none;
+      display: flex;
+      gap: 16px;
+
+      li {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 16px;
+        border-radius: 999px;
+        background-color: var(--gray-300);
+      }
+    }
+  }
+
+
+
+
+}
